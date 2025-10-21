@@ -1,0 +1,118 @@
+body{
+  background-color: black;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+#Navigation_Bar {
+background-color: rgb(3, 6, 55);
+height: 5vw;
+display: flex;
+justify-content: center;
+  gap:4vw;width: 100vw;}
+.Navigation_Bar:hover{color: rgb(255, 255, 255) }
+.Navigation_Bar{color: rgb(200, 198, 198);
+    text-decoration:none;
+    font-size:1.5vw; 
+    padding: 1.5vw; }
+#help_bar {
+  background-color: rgb(3, 6, 55);
+  height: 26vw;
+  width: 100vw;
+  align-items: flex-start; }
+#copy_right{
+color: rgb(255, 255, 255);
+font-family:'Arial, Helvetica, sans-serif';
+font-size: 1.5vw;}
+
+#title{
+color: black;
+background-color: aliceblue;
+text-align: center;
+font-size: 5vw;
+
+}
+
+
+.description{
+color: rgb(255, 255, 255);
+background-color:rgb(3, 6, 55);
+text-align: center;
+font-size: 2vw;
+
+}
+
+
+
+
+
+
+form#contactForm {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color:rgb(109, 111, 137);;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+form#contactForm input,
+form#contactForm textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+form#contactForm input:focus,
+form#contactForm textarea:focus {
+  border-color: #0078d7;
+  outline: none;
+}
+
+form#contactForm button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+form#contactForm button:hover {
+  background-color: #005fa3;
+}
+
+.error {
+  color: #d8000c;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.error {
+      color: red;
+      font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  form#contactForm {
+    padding: 15px;
+}
+}

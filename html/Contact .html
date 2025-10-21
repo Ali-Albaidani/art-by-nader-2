@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="التواصل مع الفنان نادر الشماخي ">
+    <link rel="icon" href="/images/Paintbrush.jpg" type="image/x-icon">
+
+
+    <title>تواصل معنا</title>
+    <link rel="stylesheet" type="text/css" href="/css/style3.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="Navigation_Bar">
+                <a class="Navigation_Bar" href="/index.html">الصفحة الرئيسية</a>
+                <a class="Navigation_Bar" href="/html/panting.html">الاعمال الفنية</a>
+                <a class="Navigation_Bar" href="/html/about.html">عن الفنان</a>
+                <a class="Navigation_Bar" href="/html/Contact .html"> تواصل معنا</a>
+                <a class="Navigation_Bar" href="/html/Login.html">تسجيل الدخول</a>
+            </div>
+        </nav>
+        <h1 id="title">التواصل مع الفنان</h1>
+        <p class="description">يمكنك دائما التواصل مع الفنان ادر من خلال البريد الالكتروني </p>
+    </header>
+
+    <main>
+        <form id="contactForm" aria-labelledby="contactHeading">
+            <h2 id="contactHeading">للتواصل</h2>
+
+            <label for="name">الاسم</label>
+            <input type="text" id="name" name="name" placeholder="الاسم" aria-describedby="nameError" required>
+            <span id="nameError" class="error" role="alert" aria-live="polite"></span>
+
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" placeholder="البريد الإلكتروني" aria-describedby="emailError"
+                required>
+            <span id="emailError" class="error" role="alert" aria-live="polite"></span>
+
+            <label for="subject">الموضوع</label>
+            <input type="text" id="subject" name="subject" placeholder="الموضوع" aria-describedby="subjectError"
+                required>
+            <span id="subjectError" class="error" role="alert" aria-live="polite"></span>
+
+            <label for="message">الرسالة</label>
+            <textarea id="message" name="message" placeholder="الرسالة" aria-describedby="messageError"
+                required></textarea>
+            <span id="messageError" class="error" role="alert" aria-live="polite"></span>
+
+            <button type="submit">إرسال</button>
+            <div id="feedback" role="status" aria-live="polite"></div>
+        </form>
+
+    </main>
+
+    <footer>
+        <div id="help_bar">
+            <div id="Navigation_Bar">
+                <a class="Navigation_Bar" href="/index.html">الصفحة الرئيسية</a>
+                <a class="Navigation_Bar" href="/html/panting.html">الاعمال الفنية</a>
+                <a class="Navigation_Bar" href="/html/about.html">عن الفنان</a>
+                <a class="Navigation_Bar" href="/html/Contact .html"> تواصل معنا</a>
+                <a class="Navigation_Bar" href="/html/Login.html">تسجيل الدخول</a>
+            </div>
+            <hr>
+            <div id="Navigation_Bar">
+                <a class="Navigation_Bar" href="/html/panting.html#group1">لوحات مائية</a>
+                <a class="Navigation_Bar" href="/html/panting.html#group2">لوحات تجريدية</a>
+                <a class="Navigation_Bar" href="/html/panting.html#group3">مخطوطات عربية</a>
+            </div>
+            <hr>
+            <div id="Navigation_Bar">
+                <a class="Navigation_Bar" href="/html/about.html#group4">فترة الصعوبات</a>
+                <a class="Navigation_Bar" href="/html/about.html#group5">فترة الشهرة</a>
+            </div>
+            <hr>
+            <div id="Navigation_Bar">
+                <a class="Navigation_Bar" href="mailto:#">البريد الالكتروني</a>
+            </div>
+        </div>
+        <br>
+        <p id=" copy_right">حقوق النشر محفوظة &copy; نادر الشماخي</p>
+    </footer>
+
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>
